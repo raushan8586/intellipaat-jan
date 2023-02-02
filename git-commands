@@ -1,0 +1,69 @@
+root@ip-172-31-33-202:~/project1# history
+    1  apt update -y
+    2  clear
+    3  git --version
+    4  mkdir project1
+    5  cd project1/
+    6  pwd
+    7  ls -l
+    8  ls -la
+    9  git init
+   10  ls -la
+   11  clear
+   12  git status
+   13  pwd
+   14  cd .git
+   15  ls -l
+   16  cd braches
+   17  cd branches
+   18  ls -l
+   19  cd ..
+   20  clear
+   21  ls -la
+   22  git status
+   23  touch file1
+   24  vi file1
+   25  cat file1
+   26  pwd
+   27  ls -l
+   28  git ls-files
+   29  git status
+   30  git add file1
+   31  ls -l
+   32  git ls-files
+   33  git status
+   34  git commit -m "1st commit"
+   35  ls -l
+   36  git ls-files
+   37  git status
+   38  clear
+   39  touch file2
+   40  vi file2
+   41  ls -l
+   42  git ls-files
+   43  git status
+   44  git add file2
+   45  ls -l
+   46  git ls-files
+   47  git status
+   48  git commit -m "2nd commit"
+   49  ls -l
+   50  git ls-files
+   51  git status
+   52  clear
+   53  git remote -v
+   54  git remote add origin https://github.com/raushan8586/git-push-demo.git
+   55  git remote -v
+   56  git branch
+   57  git log
+   58  git log --oneline
+   59  git show 463c799d86cb477373c243af7bc9538941deba10
+   60  git show c9e6891dd9cc6a7b86492a42ed284e56501ff27d
+   61  git push origin master
+   62  vi file1
+   63  git status
+   64  git commit -a -m "3rd_commit"
+   65  git status
+   66  git log
+   67  git show f892130b9c7e6c0541b6723e69aaf7944ad6489c
+   68  history
