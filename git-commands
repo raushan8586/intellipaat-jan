@@ -67,3 +67,180 @@ root@ip-172-31-33-202:~/project1# history
    66  git log
    67  git show f892130b9c7e6c0541b6723e69aaf7944ad6489c
    68  history
+
+
+Date: 7th Feb 2023
+
+root@ip-172-31-7-161:~/git-push-demo# history
+    1  apt update -y
+    2  git clone https://github.com/raushan8586/git-push-demo.git
+    3  ls -l
+    4  cd git-push-demo/
+    5  clear
+    6  git log --oneline
+    7  git branch
+    8  git checkout branch1
+    9  git log --oneline
+   10  ls -l
+   11  git checkout master
+   12  ls -l
+   13  git status
+   14  touch file3
+   15  vi file3
+   16  touch app.log
+   17  vi app.log
+   18  ls -l
+   19  git status
+   20  touch .gitignore
+   21  vi .gitignore
+   22  git staus
+   23  git status
+   24  git add .
+   25  git log --oneline
+   26  git commit -m "file3_gitignore-file_added"
+   27  git status
+   28  git log --oneline
+   29  touch file4
+   30  vi file4
+   31  git add .
+   32  git commit -m "file4-added"
+   33  git status
+   34  git log --oneline
+   35  git show ce2a1ff
+   36  clear
+   37  git log --oneline
+   38  git show ce2a1ff
+   39  git revert ce2a1ff
+   40  git log --oneline
+   41  git show 445ba85
+   42  ls -l
+   43  cat file2
+   44  git revert 445ba85
+   45  git log --oneline
+   46  git show 5199159
+   47  ls -l
+   48  git log --oneline
+   49  git reset --hard ce2a1ff
+   50  git log --oneline
+   51  git branch
+   52  git log --oneline
+   53  git checkout branch1
+   54  git log --oneline
+   55  git branch
+   56  git log --graph --pretty=oneline
+   57  git checkout master
+   58  git log --graph --pretty=oneline
+   59  git checkout branch1
+   60  git branch
+   61  git rebase master
+   62  git log --oneline
+   63  ls -l
+   64  touch branch1_file5
+   65  vi branch1_file5
+   66  git add .
+   67  git commit -m "branch1_file5"
+   68  git log --oneline
+   69  git rebase master
+   70  git checkout master
+   71  git branch
+   72  git merge branch1 master
+   73  git log --oneline
+   74  git log --grapg --pretty=oneline
+   75  git log --graph --pretty=oneline
+   76  git branch
+   77  ls -l
+   78  touch file6
+   79  vi file6
+   80  git add .
+   81  git commit -m "file6-added-master"
+   82  git log --oneline
+   83  git checkout branch1
+   84  git branch
+   85  ls -l
+   86  vi branch1_file6
+   87  touch branch1_file6
+   88  vi branch1_file6
+   89  git add .
+   90  git commit -m "branch1-file6"
+   91  git checkout master
+   92  git log --oneline
+   93  git merge branch1 master
+   94  git log --oneline
+   95  git show ed0f8c0
+   96  git log --graph --pretty=oneline
+   97  git checkout branch1
+   98  git log --graph --pretty=oneline
+   99  git rebase master
+  100  git log --graph --pretty=oneline
+  101  git branch
+  102  git checkout master
+  103  ls -l
+  104  touch file7
+  105  vi file7
+  106  clear
+  107  git add .
+  108  git commit -m "file7-added-master"
+  109  git log --oneline
+  110  git checkout branch1
+  111  touch file7
+  112  vi file7
+  113  git add .
+  114  git commit -m "file7-added-branch1"
+  115  git log --oneline
+  116  git checkout master
+  117  git merge branch1 master
+  118  git status
+  119  cat file7
+  120  vi file7
+  121  git status
+  122  git commit -a -m "file7-updated"
+  123  git status
+  124  git log --oneline
+  125  git log --graph --pretty=oneline
+  126  clear
+  127  git status
+  128  ls -l
+  129  vi file6
+  130  vi file7
+  131  git status
+  132  git checout branch1
+  133  git checkout branch1
+  134  vi file6
+  135  vi file7
+  136  git status
+  137  ls -l
+  138  vi file4
+  139  git status
+  140  git add file4
+  141  git status
+  142  git log --oneline
+  143  git status
+  144  git stash list
+  145  clear
+  146  git status
+  147  git stash list
+  148  git stash
+  149  git status
+  150  git stash list
+  151  git show stash@{0}
+  152  vi file4
+  153  git status
+  154  git commit -a -m "file4-updated"
+  155  git log --oneline
+  156  git status
+  157  history
+  158  git status
+  159  clear
+  160  git stash list
+  161  git stash pop stash@{0}
+  162  git status
+  163  git stash list
+  164  git stash -p
+  165  git status
+  166  git commit -a -m "file7-updated"
+  167  git stash list
+  168  git show stash@{0}
+  169  git status
+  170  git stash pop stash@{0}
+  171  git status
+  172  history
