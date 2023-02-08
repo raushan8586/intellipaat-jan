@@ -1,0 +1,72 @@
+touch file1
+vi file1
+i --> insert mode
+esc
+ZZ --> :wq! --> save the file and quit
+
+git version
+git clone https://github.com/raushan8586/intellipaat28Jan2023.git (.git)
+
+WD --> git add --> SA --> git commit --> LR --> git pull --> git push
+
+ls -l --> WD (Filesystem)
+git ls-files --> SA / LR
+git status  -->  read the msg (untracked - WD, changes to be committed -- SA, Repo clean -- LR)
+
+git remote -v
+
+if git cloned is done, --> git remote add origin is not required
+
+ls -la ( a --> hidden files) --> .git  directory is found --> git is initialized
+git init --> if .git directory is not found
+
+.gitignore --> if you don't need git to track certain files, mention the files in this .gitignore
+
+git log --> to see all the commit Ids
+git log --oneline --> simplified way
+ 
+Branching
+---------
+Master --> Golden copy
+
+Features branches --> enhancements / new fetaures / POC
+
+git branch b1 master --> create b1 branch out of master --> copy all the commits of master to b1
+git checkout b1
+
+git checkout -b b2 master --> create b2 branch and checkout
+
+git push origin master
+git push origin b1/b2
+
+Merge --> Go to the Destination branch
+
+git merge src destination
+
+Rebase --> Feature branches to be synced up with Master branch
+------
+
+Go to the feature branch --> git rebase master
+
+git log --oneline
+1
+2
+3 -> 4+2 =6
+4 -> 2+2 = 4
+
+git show <commit_id> --> it will provide info on what excatly you have done as part of commit ID
+it shows the difference between the latest commit and last commit
+
+git revert <commit_id> --> it creates a new commit id to track
+
+git reset --> the most destructive in git
+git reset --hard <commit_id> --> HEAD points o this commit-id
+
+--soft
+--mixed
+
+
+
+
+
+
