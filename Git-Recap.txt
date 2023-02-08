@@ -65,7 +65,59 @@ git reset --hard <commit_id> --> HEAD points o this commit-id
 --soft
 --mixed
 
+file1, file2, file3 --> WD --> untracked files
 
+file4, file5
+
+git stash --> park your untracked changes (WD) -- temporary shell
+
+git stash list --> get the stash number
+
+
+git stash list
+
+  352  git show stash@{0}
+  353  git stash list
+  354  clear
+  355  git stash list
+  356  git stash pop stash@{0} --> Bring the temp shell --> WD
+  357  git stash list
+  358  git stash
+  359  git stash list
+  360  git stash apply stash@{0}
+  
+  pop --> deletes from temp shell and move to changes to WD
+  apply --> does not delete temp shell and copies the stash number to WD
+  
+  
+  361  git stash list
+  362  git status
+  363  git stash list
+  364  git stash drop stash@{0}
+  365  git stash list
+  366  git status
+  367  git stash -p --> Partial stash
+  file1, file2, file3, file4 --> WD --> untracked files
+  
+  file1, file3 to be moved to stashing area --> Partial stashing would be required. 
+  
+  git status
+  file1
+  file2
+  file3
+  file4
+  
+  git stash -p 
+  
+  
+  git status
+  file2
+  file4
+  
+  
+  git stash list --> file1, file3
+  
+  
 
 
 
