@@ -25,3 +25,31 @@ root@ip-172-31-7-224:~# history
    27  docker commit e36eb06ed7d2 httpd_new
    28  docker images
    29  history
+15  mkdir project1
+   16  cd project1/
+   17  ls -
+   18  ls -l
+   19  touch Dockerfile
+   20  vi Dockerfile
+   21  cat Dockerfile
+   22  ls -l
+   23  touch index1.html
+   24  touch index2.html
+   25  vi index1.html
+   26  vi index2.html
+   27  cat Dockerfile
+   28  docker build . -t httpd1
+   29  docker images
+   30  docker run -itd -p 82:80 httpd1
+   31  docker ps
+   32  docker exec -it 307ff6a891fc /bin/bash
+   33  cat Dockerfile
+   34  docker images
+   35  clear
+   36  docker images
+   37  docker login
+   38  docker image tag httpd1:latest raushan8586/intellipaat-jan:latest
+   39  docker image push raushan8586/intellipaat-jan:latest
+   40  docker image tag httpd1:latest raushan8586/intellipaat-jan:httpd1
+   41  docker image push raushan8586/intellipaat-jan:httpd1
+   42  history
