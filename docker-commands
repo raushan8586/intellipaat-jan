@@ -53,3 +53,25 @@ root@ip-172-31-7-224:~# history
    40  docker image tag httpd1:latest raushan8586/intellipaat-jan:httpd1
    41  docker image push raushan8586/intellipaat-jan:httpd1
    42  history
+   docker ps
+   48  docker volume ls
+   49  docker volume create intellipaat-jan
+   50  docker volume ls
+   51  docker ps
+   52  docker rm -f 307ff6a891fc
+   53  docker run -it --mount source=intellipaat-jan,target=/usr/local/apache2/htdocs -d -p 82:80 httpd
+   54  docker ps
+   55  docker exec -it 1de37dc576c3 /bin/bash
+   56  docker run -it --mount source=intellipaat-jan,target=/usr/local/apache2/htdocs -d -p 83:80 httpd
+   57  docker ps
+   58  docker rm -f 1de37dc576c3
+   59  docker ps
+   60  find / -name 'intellipaat-jan'
+   61  cd /var/lib/docker/volumes/intellipaat-jan
+   62  ls -l
+   63  cd _data
+   64  ls -l
+   65  cp index2 index3.html
+   66  cp index2.html index3.html
+   67  vi index3.html
+   68  history
