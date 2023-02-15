@@ -75,3 +75,53 @@ root@ip-172-31-7-224:~# history
    66  cp index2.html index3.html
    67  vi index3.html
    68  history
+4  docker network ls
+    5  docker inspect e5c25387334a
+    6  docker run -itd -p 82:80 httpd
+    7  docker ps
+    8  docker inspect c5ba06002ce1
+    9  docker network ls
+   10  docker ps
+   11  docker logs c5ba06002ce1
+   12  docker network ls
+   13  docker-compose version
+   14  apt install docker-compose -y
+   15  docker-compose version
+   16  docker version
+   17  mkdir app1
+   18  cd app1
+   19  touch docker-compose.yaml
+   20  vi docker-compose.yaml
+   21  cat docker-compose.yaml
+   22  ls -l
+   23  docker-compose up -d
+   24  docker ps
+   25  docker rm -f c5ba06002ce1
+   26  clear
+   27  docker ps
+   28  docker network ls
+   29  docker inspect 26ae133fbfad
+   30  docker volume ls
+   31  cd /var/lib/docker/
+   32  ls -l
+   33  cd volumes/
+   34  ls -l
+   35  cd app1_db_data/
+   36  ls -l
+   37  cd _data
+   38  ls -l
+   39  cd ~
+   40  ls -l
+   41  cd app1/
+   42  ls -l
+   43  docker ps
+   44  docker exec -it fe0286b39092 /bin/bash
+   45  docker ps
+   46  docker-compose down
+   47  docker ps
+   48  docker-compose up -d
+   49  docker ps
+   50  docker logs eb476dcdc04e
+   51  docker network ls
+   52  vi docker-compose.yaml
+   53  history
