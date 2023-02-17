@@ -1,0 +1,7 @@
+https://kubernetes.io/
+https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-apiversion-definition-guide.html
+https://blog.knoldus.com/what-is-apiversion-in-kubernetes-part-1/
+
+
+kubectl api-resources
+kubectl api-versions
