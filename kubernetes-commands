@@ -1,0 +1,27 @@
+340  kubectl get nodes
+  341  kubectl get no
+  342  kubectl get nodes -o wide
+  343  kubectl get pods
+  344  ls -l
+  345  cd YAMLs
+  346  ls -l
+  347  vi nginx-pod.yaml
+  348  kubectl api-resources
+  349  kubectl api-versions
+  350  vi nginx-pod.yaml
+  351  ls -l
+  352  kubectl apply -f nginx-pod.yaml
+  353  kubectl get po
+  354  kubectl get po -o wide
+  355  kubectl get nodes
+  356  kubectl describe pod nginx-pod
+  357  clear
+  358  kubectl get namespaces
+  359  kubectl get ns
+  360  kubectl get all -n default
+  361  kubectl get all -n kube-node-lease
+  362  kubectl get all -n kube-public
+  363  kubectl get all -n kube-system
+  364  kubectl get po
+  365  kubectl logs nginx-pod
+  366  history
