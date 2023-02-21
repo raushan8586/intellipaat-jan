@@ -5,3 +5,6 @@ https://blog.knoldus.com/what-is-apiversion-in-kubernetes-part-1/
 
 kubectl api-resources
 kubectl api-versions
+
+
+https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
