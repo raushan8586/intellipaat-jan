@@ -25,3 +25,23 @@
   364  kubectl get po
   365  kubectl logs nginx-pod
   366  history
+  cat nodeport-service.yaml
+  504  kubectl apply -f nodeport-service.yaml
+  505  kubectl get all
+  506  kubectl get po -o wide
+  507  kubectl get nodes -o wide
+  508  kubectl delete -f nodeport-service.yaml
+  509  kubectl get all
+  510  ls -l
+  511  cat loadbalancer-service.yaml
+  512  kubectl apply -f loadbalancer-service.yaml
+  513  kubectl get all
+  514  kubectl get svc
+  515  kubectl get all
+  516  kubectl delete pod frontend-deployment-544d4cbccd-mpj2l
+  517  kubectl get po
+  518  kubectl delete pod frontend-deployment-544d4cbccd-qrk8h
+  519  kubectl get po
+  520  kubectl get po -o wide
+  521  kubectl exec -it frontend-deployment-544d4cbccd-brxp9 -- bin/sh
+  522  history
