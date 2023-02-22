@@ -10,3 +10,6 @@ kubectl api-versions
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
 https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-backend/
+
+https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
+https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/
