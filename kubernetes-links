@@ -14,6 +14,9 @@ https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-
 https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
 https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/
 
+Ingress
+https://kubernetes.io/docs/concepts/services-networking/ingress/
+
 Ingress Demo
 Demo1:
 https://cloud.google.com/community/tutorials/nginx-ingress-gke
