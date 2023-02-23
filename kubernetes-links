@@ -13,3 +13,6 @@ https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-
 
 https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
 https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/
+
+Ingress Demo
+https://cloud.google.com/kubernetes-engine/docs/how-to/load-balance-ingress
