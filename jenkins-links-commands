@@ -12,13 +12,18 @@ https://www.jenkins.io/doc/book/installing/linux/
 
 
 
-
-
-
-
-
-
-
-
-
 Commands:
+root@ip-172-31-3-129:~# history
+    1  apt update -y
+    2  clear
+    3  java -version
+    4  apt install openjdk-11-jre -y
+    5  java -version
+    6  clear
+    7  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+    8  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+    9  apt update -y
+   10  apt install jenkins -y
+   11  lsof -i -P -n | grep LISTEN
+   12  cat /var/lib/jenkins/secrets/initialAdminPassword
+   13  history
