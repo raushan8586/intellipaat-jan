@@ -4,14 +4,6 @@ https://www.jenkins.io/doc/book/installing/linux/
 
 
 
-
-
-
-
-
-
-
-
 Commands:
 root@ip-172-31-3-129:~# history
     1  apt update -y
