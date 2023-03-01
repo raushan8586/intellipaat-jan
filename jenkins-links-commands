@@ -44,5 +44,12 @@ root@ip-172-31-3-129:~# history
    22  service jenkins status
    23  docker ps
    24  history
+   
+sudo docker rm -f $(sudo docker ps -a -q)
+sudo docker build /var/lib/jenkins/workspace/BuildContainerizedApp/ -t httpd1
+sudo docker run -itd -p 82:80 httpd1
+
+https://github.com/raushan8586/pipeline1.git
+
 
 
