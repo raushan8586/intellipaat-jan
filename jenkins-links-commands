@@ -33,5 +33,16 @@ root@ip-172-31-3-129:~# history
     4  mvn -version
     5  cd /var/lib/jenkins/workspace/maven-job/target/
     6  ls -l
+    
+    
+     18  visudo
+     Add this line --> jenkins ALL=(ALL) NOPASSWD: ALL
+     
+   19  service jenkins status
+   20  service jenkins stop
+   21  service jenkins start
+   22  service jenkins status
+   23  docker ps
+   24  history
 
 
