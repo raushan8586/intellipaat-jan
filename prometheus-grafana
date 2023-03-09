@@ -1,0 +1,28 @@
+500  gcloud container clusters create cluster-demo --num-nodes=2 --zone=us-central1-a
+  503  helm version
+  504  ls -l
+  505  cat loadbalancer-service.yaml
+  
+  506  kubectl apply -f loadbalancer-service.yaml
+  507  kubectl get all
+  
+  508  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+  509  helm install my-prometheus prometheus-community/prometheus --version 19.7.2
+  
+  510  kubectl get all
+  511  kubectl get svc
+
+  517  kubectl get nodes
+  518  kubectl get pods
+  
+  519  helm repo add grafana https://grafana.github.io/helm-charts
+  520  helm install my-grafana grafana/grafana --version 6.52.1
+  
+  521  kubectl get svc
+  522  kubectl get secret --namespace default my-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+  523  kubectl get pods
+  524  gcloud container clusters get-credentials cluster-demo --zone us-central1-a --project kubernetes-project-371605  && kubectl port-forward $(kubectl get pod --selector="app=prometheus,component=server,release=my-prometheus" --output jsonpath='{.items[0].metadata.name}') 8080:9090
+  525  helm delete my-grafana
+  526  helm delete my-prometheus
+  527  kubectl delete -f loadbalancer-service.yaml
+  528  history
