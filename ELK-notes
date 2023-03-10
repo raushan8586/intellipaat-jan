@@ -8,3 +8,34 @@ https://github.com/raushan8586/ELKExample
 
 
 Commands
+root@ip-172-31-5-129:~/ELKExample# history
+    1  apt update -y
+    2  apt install docker.io -y
+    3  apt install docker-compose -y
+    4  docker version
+    5  docker-compose version
+    6  sysctl -w vm.max_map_count=262144
+    7  git clone https://github.com/raushan8586/ELKExample.git
+    8  ls -l
+    9  cd ELKExample/
+   10  ls -l
+   11  cat docker-compose.yml
+   12  vi docker-compose.yml
+   13  docker-compose up -d
+   14  vi docker-compose.yml
+   15  docker-compose up -d
+   16  vi docker-compose.yml
+   17  rm docker-compose.yml
+   18  vi docker-compose.yml
+   19  docker-compose up -d
+   20  docker ps
+   21  docker exec -it dc1a33801292 /bin/bash
+   22  docker ps
+   23  docker exec -it af811d7a77ee /bin/bash
+   24  docker-compose down
+   25  vi docker-compose.yml
+   26  docker-compose up -d
+   27  docker ps
+   28  docker run -itd -p 82:80 httpd
+   29  cat docker-compose.yml
+   30  history
